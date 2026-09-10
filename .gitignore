@@ -1,0 +1,49 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---------- 工具缓存 ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ---------- 编辑器 / IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 运行时输出 ----------
+# 本工具生成的 PDF 默认保存为所选文件夹下的 output.pdf
+output.pdf
+# 如需忽略全部导出的 PDF，取消下面一行注释
+# *.pdf
+
+# 本地启动脚本（含绝对路径，仅本机使用，不提交）
+*.sh
+*.desktop
+*.vbs
