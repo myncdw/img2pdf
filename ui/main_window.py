@@ -53,7 +53,7 @@ class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
         self.setWindowTitle(APP_TITLE)
-        self.resize(1280, 840)
+        self.resize(1280, 900)
         self.setMinimumSize(1040, 700)
         self.setAcceptDrops(True)
         self.setMouseTracking(True)
